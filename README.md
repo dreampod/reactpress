@@ -1,4 +1,5 @@
 # ReactPress
+[![Travis][build-badge]][build]
 
 ReactPress is a simple MVC Javascript Framework built for fun.
 
@@ -27,3 +28,6 @@ ReactPress uses a number of open source projects to work properly:
 License
 ----
 MIT
+
+[build-badge]: https://img.shields.io/travis/jamesgordo/reactpress/master.svg?style=flat-square
+[build]: https://travis-ci.org/jamesgordo/reactpress
