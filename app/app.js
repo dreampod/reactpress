@@ -1,13 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, IndexRoute, Link, IndexLink } from 'react-router'
+import { Router, Route, Link } from 'react-router'
 import { browserHistory } from 'react-router'
 
-require('./assets/css/app.min.css');
+require('./assets/css/app.min.css')
 
 const App = React.createClass({
-	render() {
-		return (
+  render() {
+    return (
 			<div className="container">
 				<div className="jumbotron">
 					<h1>Hello World</h1>
@@ -16,12 +16,12 @@ const App = React.createClass({
 				</div>
 			</div>
 		)
-	}
+  }
 })
 
 const About = React.createClass({
-	render() {
-		return (
+  render() {
+    return (
 			<div className="container">
 				<div className="jumbotron">
 					<h1>About</h1>
@@ -30,7 +30,7 @@ const About = React.createClass({
 				</div>
 			</div>
 		)
-	}
+  }
 })
 
 render((
@@ -38,4 +38,4 @@ render((
     <Route path="/" component={App} />
     <Route path="/about" component={About} />
 </Router>
-), document.getElementById('content'));
+), document.getElementById('content'))
